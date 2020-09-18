@@ -1,0 +1,146 @@
+* {
+  font-family: 'Cormorant', serif !important;
+  color: rgb(65, 83, 101);
+  text-align: center;
+}
+
+body {
+  background: url("Images/tempbackground.jpg");
+  background-size: cover;
+}
+
+header {
+  padding-top: 2%;
+  text-align: center;
+}
+
+#name {
+  text-transform: uppercase;
+  font-size: 3.0em;
+  margin-bottom: 0;
+  /* color: rgb(61, 90, 106); */
+  /* color: rgb(65, 83, 101); */
+  /* font-weight: bolder; */
+}
+
+#quote {
+  font-style: italic;
+  margin-bottom: 5%;
+  margin: 0 auto 30px auto;
+}
+
+a {
+  font-size: 1.0em;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0.60em;
+  background: rgba(185, 206, 217, 0.45);
+  border-width: 2px;
+  border-color: transparent;
+  border-style: solid;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  margin: 1.0em;
+}
+
+#music {
+  border-radius: 90%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+/* .buttons a {
+  text-decoration: none;
+} */
+
+a:hover {
+  border-radius: 0.75em;
+  /* padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px; */
+  border-color: white;
+  /* border-width: 3px; */
+  /* border-style: solid; */
+  /* text-decoration: underline; */
+  color: cornsilk;
+  background: rgba(86, 129, 151, 0.5);
+}
+
+#intro {
+  margin-top: 40px;
+  /* align-content: center; */
+  /* text-align: center;
+  display: inline-block; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+#column1 {
+  /* margin-left: 15%; */
+  float: left;
+  width: 30%;
+  min-height: 300px;
+}
+
+#hi {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#connect p {
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+#resume {
+  background: #F4CBB2;
+}
+
+#icons {
+  /* margin-top: 15%; */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#email {
+  /* background: rgb(200, 200, 200); */
+  background: #7DBBE6;
+  border-radius: 60px;
+}
+
+#linkedin {
+  background: #0e76a8;
+}
+
+#github {
+  background: #9CDAF1;
+}
+
+#icons a{
+  border-radius: 50%;
+  height: 35px;
+}
+
+#column2 {
+  /* margin-left: 10%; */
+  margin-top: 20px;
+  width: 250px;
+  height: auto;
+}
+
+footer {
+  border-top: 1px solid white;
+  text-align: center;
+  padding: 2%;
+}

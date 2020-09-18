@@ -1,0 +1,109 @@
+* {
+  font-family: 'Cormorant', serif !important;
+  color: rgb(65, 83, 101);
+  margin: auto;
+}
+
+body {
+  background: url("Images/tempbackground.jpg");
+  background-size: cover;
+}
+
+header {
+  padding-top: 2%;
+  text-align: center;
+}
+
+#name {
+  text-transform: uppercase;
+  font-size: 3.0em;
+  margin-bottom: 3%;
+  margin-top: 4%;
+}
+
+header a {
+  font-size: 1.0em;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0.60em;
+  background: rgba(185, 206, 217, 0.45);
+  border-width: 2px;
+  border-color: transparent;
+  border-style: solid;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  margin: 1.0em;
+}
+
+#header a:hover {
+  border-radius: 0.75em;
+  border-color: white;
+  color: cornsilk;
+  background: rgba(86, 129, 151, 0.5);
+}
+
+#body {
+  margin-top: 2%;
+}
+
+#title {
+  font-size: 1.5em;
+  text-align: left;
+  float: left;
+}
+
+#contact {
+  font-size: 1.2em;
+  text-align: right;
+}
+
+#summary {
+  margin-top: 10%;
+}
+
+#body {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.header {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 2.5%;
+}
+
+.info {
+  margin-top: 5%;
+  text-align: center;
+}
+
+#photos img {
+  width: 30%;
+  /* float: left; */
+  margin: 1%;
+}
+
+#donate {
+  margin-bottom: 10%;
+}
+
+#donate img{
+  width: 25%;
+  margin: 3%;
+  float: left;
+}
+
+#action {
+  margin-bottom: 10%;
+}
+
+footer {
+  border-top: 1px solid white;
+  text-align: center;
+  padding: 2%
+}
