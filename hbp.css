@@ -63,7 +63,7 @@ header a {
 }
 
 #summary {
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 #body {
@@ -74,7 +74,8 @@ header a {
 .header {
   font-size: 1.2em;
   font-weight: bold;
-  margin-top: 2.5%;
+  /* margin-top: 5%; */
+  padding-top: 5%;
 }
 
 .info {
@@ -93,13 +94,14 @@ header a {
 }
 
 #donate img{
-  width: 25%;
-  margin: 8%;
+  width: 20%;
+  margin-top: 5%;
+  margin-bottom: 8%;
   float: left;
 }
 
 #action {
-  margin-bottom: 10%;
+  margin-bottom: 12%;
 }
 
 footer {
