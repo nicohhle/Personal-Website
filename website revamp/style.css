@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   text-decoration: none;
   /* color: rgb(57, 84, 119); */
   color:rgba(0, 0, 0, 0.5);
@@ -13,8 +13,14 @@ font-family: 'Space Mono', monospace; */
 body {
   background: url(bg.jpeg) no-repeat center;
   background-size: cover;
-  position: relative;
-  
+  /* position: relative; */
+}
+
+h2 {
+  color:rgba(0, 0, 0, 0.5);
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+  color: rgb(199, 111, 90);
 }
 
 footer {
@@ -45,6 +51,10 @@ footer {
   margin-left: 20px;
 }
 
+a.nav-link:hover {
+  color: rgb(199, 111, 90) !important;
+}
+
 /* .navbar-light .navbar-nav .nav-link {
   color: rgb(57, 84, 119);
 }
@@ -55,6 +65,7 @@ footer {
 
 .collapse, .navbar-collapse {
   text-align: right;
+  margin-right: 20px;
 }
 
 .home-wrapper {
@@ -133,7 +144,29 @@ footer {
   color: white;
 }
 
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024;
+  /* background: url(bg.jpeg) no-repeat center;
+  background-size: cover;
+  position: relative; */
+  height: 100vh;
+  color: rgb(57, 84, 119);
+  overflow-x: hidden;
+}
+
+.about-content {
+  margin-top: 125px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
 @media (max-width: 460px) {
+  .text {
+    height: 150px;
+  }
+  
   p.subtext {
     margin-right: 15px;
     font-size: 12px;
@@ -176,8 +209,14 @@ footer {
     margin-left: 20px;
   } 
 
+  h2 {
+    font-size: 24px;
+  }
+
   footer {
-    font-size: 14px;
+    font-size: 12px;
+    margin-top: -30px;
+  margin-bottom: 50px;
   }
 }
 
@@ -220,5 +259,23 @@ footer {
 @media (max-width: 900px) {
   .text {
     max-width: 300px;
+  }
+}
+
+@media (min-width: 1600px) {
+  a.nav-link {
+    font-size: 20px;
+  }
+  
+  .text {
+    font-size: 32px;
+  }
+
+  p.subtext {
+    font-size: 20px;
+  }
+
+  #resume {
+    font-size: 22px;
   }
 }
