@@ -1,84 +1,100 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="index.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nicole Nguyen</title>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Nicole Nguyen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/948d5d1a28.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-</head>
-<body>
-  <!-- image of my name or my actual text name? -->
-  <header>
-    <h1 id="name">Nicole Nguyen</h1>
-    <!-- <h3 id="quote">"Success is not final; failure is not fatal: It is the courage to continue that counts."</h3> -->
-    <h3 id="quote">Currently undergoing redesign and restructuring! In the meantime, please feel free to browse the info.</h3>
-
-    <div id="menu">
-    <!-- <button class="buttons"> -->
-      <a id="currPg" href="index.html">Home</a>
-    <!-- </button> -->
-    <!-- <button class="buttons" -->
-      <a href="about.html">About</a>
-    <!-- </button> -->
-    <!-- <button class="buttons"> -->
-      <a href="timeline.html">Timeline</a>
-    <!-- </button> -->
-    <!-- <button class="buttons"> -->
-      <a href="hbp.html">HBP</a>
-    <!-- </button> -->
-  </div>
-
-  <nav class="nav justify-content-center collapse">
-    <a class="nav-link active" href="index.html">Home</a>
-    <a class="nav-link" href="about.html">About</a>
-    <a class="nav-link" href="timeline.html">Timeline</a>
-    <a class="nav-link disabled" href="hbp.html" tabindex="-1" aria-disabled="true">HBP</a>
-  </nav>
-<!-- 
-    <div id="music">
-      <button class="buttons">
-        <img src="Images/musicnote.png" width="20px" height="35px" id="musicnote">
+    <script src="https://kit.fontawesome.com/948d5d1a28.js" crossorigin="anonymous"></script>
+    
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="index.html"><img src="logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-    </div> -->
-  </header>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Timeline</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">HBP</a>
+          </li> -->
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Extracurriculars
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">HBP</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">SWE</a>
+              <!-- <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a> -/->
+            </div>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
 
-  <div id="intro">
-    <div id=column1>
-      <p id="hi">Hi, welcome to my page!</p>
-      <p>My name is Nicole Nguyen and I am a fourth year studying Computer Science at the University of California, Riverside.</p>
-      <p>I am currently looking for full-time and internship opportunities as a software engineer or product manager for Fall/Summer 2021!</p>
+    <section class="home-wrapper" id="home">
+      <div class="home-content">
+        <div class="text">
+          Nicole Nguyen
+          <span>&#10048;</span>
+          <!-- <span class="subtext coloredtext">software engineer</span> -->
+          <span class="subtext coloredtext typing"></span>
 
-      <a id="resume" href="Images/resume.pdf" title="Read my resume!">Resume</a>
-
-      <div id="contact">
-        <div id="connect">
-          <p>Connect with me!</p>
-          <!-- <a id="resume" href="resume.pdf" title="Read my resume!">Resume</a> -->
         </div>
-
-        <div id="icons">
-        <a id="email" href="mailto:nicoleennguyen@gmail.com" title="Email me!" <i class="far fa-envelope" style="font-size:17px"></i></a>
-        <a id="linkedin" href="https://www.linkedin.com/in/nicoleyennguyen/" title="Add me!" <i class="fab fa-linkedin-in" style="font-size:15px"></i></a>
-        <a id="github" href="https://github.com/nicohhle" title="Check out my projects!"<i class="fab fa-github"></i></a>
+        <p class="subtext">Welcome to my page!</br>
+          My name is Nicole and I'm a fourth year studying Computer Science at the UC Riverside. I'm currently looking for software engineer, product manager, or UX designer roles!</p>
+        <div class="resume">
+          <a href="resume.pdf">
+            <button id="resume">
+              resume
+            </button>
+          </a>
         </div>
       </div>
-    </div>
+      <div class="pfpContainer">
+        <img class="pfp" src="me.png" alt="avatar">
+      </div>
+    </section>
 
-    <div>
-      <img id="column2" src="Images/me.jpg">
-    </div>
-  </div>
+    <footer>
+      <div>
+        <div class="icons">
+          <a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/nicoleyennguyen/"></a>
+          <a class="fab fa-github" href="https://www.github.com/nicohhle"></a>
+          <a class="far fa-envelope" href="mailto:nicoleennguyen@gmail.com"></a>
+          <a class="fab fa-facebook-f" href="https://www.facebook.com/nnnicoco/"></a>
+          <a class="fab fa-instagram" href="https://www.instagram.com/nicohhle/"></a>
+        </div>
+        <!-- Made with hugs &#x2665; -->
+      </div>
+    </footer>
 
-  <footer>
-    <p id="end">Made with ❤ by Nicole</p>
-  </footer>
-  
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

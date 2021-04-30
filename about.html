@@ -1,69 +1,97 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Nicole Nguyen</title>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Nicole Nguyen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" type="text/css" href="about.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <h1 id="name">Nicole Nguyen</h1>
+    <script src="https://kit.fontawesome.com/948d5d1a28.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <!-- <button class="buttons"> -->
-      <a id="currPg" href="index.html">Home</a>
-    <!-- </button> -->
-    <!-- <button class="buttons"> -->
-      <a href="about.html">About</a>
-    <!-- </button> -->
-    <!-- <button class="buttons"> -->
-      <a href="timeline.html">Timeline</a>
-    <!-- </button> -->
-    <!-- <button class="buttons"> -->
-      <a href="hbp.html">HBP</a>
-    <!-- </button> -->
-
-    <!-- <button class="buttons">
-      <img src="Images/musicnote.png">
-    </button>
-  </header> -->
-
-  <div id="body">
-    <h3 class="header">About Me - Who am I really?</h3>
     
-    <p class="info">Student with a passion for design, prioritizing users, solving problems and creating solutions.</p>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="index.html"><img src="logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Timeline</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">HBP</a>
+          </li> -->
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Extracurriculars
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">HBP</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">SWE</a>
+              <!-- <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a> -/->
+            </div>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
 
-    <p class="info">Alongside schoolwork and other extracurriculars, I enjoy digital journaling, sudoku variants, binging shows, trying new recipes, finding new piano pieces, and learning new languages. I am also taking Google's UX Design Certificate Course on Coursera!</p>
-
-    <h3 class="header">Currently studying this Spring:</h3>
-    <ul class="info">
-      <li>Web Development Principles</li>
-      <li>Database Management Systems</li>
-      <li>Public Speaking</li>
-      <li>The Art of Self-Care</li>
-    </ul>
-
-    <h3 class="header">Past Exposures/Courses:</h3>
-    <p class="info">&#9055 Data Structures and Algorithms</p>
-    <p class="info">&#9055 Personal Project Sequence</p>
-    <p class="info"> • Automata and Formal Languages</p>
-    <p class="info"> • Compilers</p>
-    <p class="info"> • Embedded Systems</p>
-    <p class="info"> • Information Retrieval</p>
-    <p class="info"> • Natural Language Processing</p>
-    <p class="info"> • Virtual Reality</p>
-    <p class="info"> • Operating Systems</p>
-    <p class="info"> • Computer Architecture</p>
-  </div>
-
-  <footer>
-    <p id="end">Made with ❤ by Nicole</p>
-  </footer>
-  
-</body>
+    <div class="about-wrapper" id="about">
+        <div class="about-content">
+            <div>
+                <h2>Who am I?</h2>
+                <p>Novice in design inspired by everything around me. </p>
+                <p>Alongside schoolwork and other extracurriculars, I enjoy digital journaling, sudoku variants, binging shows, trying new recipes, finding new piano pieces, and learning new languages. I am also taking <span class="text-primary">Google's UX Design Certificate Course</span> on Coursera!</p>
+            </div>
+            <hr>
+            <div>
+                <h2>Involvements</h2>
+                <p><span class="bullet">&#x270E;</span>Media Executive for <a href="https://theheadbandproject.com/" alt="theheadbandprojectwebsite" class="text-success underline">The HeadBand Project</a></p>
+                <p><span class="bullet">&#x270E;</span>Public Relations Chair for the Society of Women Engineers</p>
+                <p><span class="bullet">&#x270E;</span>Communications Director for Design at UCR</p>
+                <p><span class="bullet">&#x270E;</span>Pi Beta Phi</p>
+            </div>
+            <hr>
+            <div>
+                <h2>Currently studying this Spring:</h2>
+                <p><span class="bullet">&#10048;</span>Web Development Principles</p>
+                <p><span class="bullet">&#10048;</span>Database Management Systems</p>
+                <p><span class="bullet">&#10048;</span>Public Speaking</p>
+                <p><span class="bullet">&#10048;</span>The Art of Self-Care</p>
+            </div>
+            <hr>
+            <div>
+                <h2>Relevant Courses</h2>
+                <p><span class="bullet">&#x2727;</span>Data Structures and Algorithms</p>
+                <p><span class="bullet">&#x2727;</span>Personal Project Sequence</p>
+                <p><span class="bullet">&#x2727;</span>Natural Language Processing</p>
+                <p><span class="bullet">&#x2727;</span>Technical Communications</p>
+                <p><span class="bullet">&#x2727;</span>Information Retrieval</p>
+            </div>
+            </div>
+        <hr/>
+        </div>
+    </div>
+  </body>
 </html>
