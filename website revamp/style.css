@@ -96,10 +96,10 @@ a.nav-link:hover {
 }
 
 .text {
-  /* font-family: 'Inter', sans-serif; */
-  font-family: monospace;
-  font-weight: bolder;
-  font-size: 1.4em;
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Space Mono',monospace; */
+  /* font-weight: bold; */
+  font-size: 1.6em;
   margin-bottom: 10px;
   letter-spacing: 0.1em;
 }
@@ -160,6 +160,14 @@ a.nav-link:hover {
   margin-top: 125px;
   margin-right: 20%;
   margin-left: 20%;
+}
+
+.bullet {
+  margin: 10px;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 @media (max-width: 460px) {
